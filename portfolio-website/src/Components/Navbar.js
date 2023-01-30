@@ -15,7 +15,6 @@ const Navbar = () => {
                      Home
                 </Link>
                 </li>
-                <hr/>
                 <li className="nav-item">
                 <Link to ="/about" activeClassName="active" className="nav-links" onClick={handleClick}>
                         About

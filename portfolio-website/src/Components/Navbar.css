@@ -13,7 +13,7 @@ header {
 .navbar {
     display: flex;
     justify-content: space-around;
-    background-color: brown;
+    background-color: #3E3C3C;
     color: white;
     align-items: center;
     height: 75px;

@@ -5,6 +5,10 @@
 }
 
 .headline {
+  background: url('./Components/assets/images/Illustration-header@2x.png');
+  background-repeat: no-repeat;
+  background-size: 250px auto;
+  background-position: right;
   background-color: #1C1A19;
 }
 
@@ -30,6 +34,7 @@
 }
 
 .details {
+  width: 327px;
   padding: 12px 24px 0px 24px;
   font-family: 'Poppins';
   font-style: normal;
@@ -56,7 +61,223 @@
   border: 1px solid #212121;
 }
 
+.proj1 {
+  justify-content: center;
+}
+
+.proj-img1 {
+  margin:10% 0% 0% 10%;
+  max-width: 80%;
+}
+
+.title-post {
+  width: 80%;
+  margin: 2% 0% 0% 10%;
+  text-align: center;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091E42;
+}
+
+.supporting-text {
+  width: 80%;
+  margin: 2% 10% 0% 10%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091E42;
+}
+
+.tags {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  text-align: center;
+  margin: 2% 10% 0% 10%;
+}
+
+.tags li {
+  border: 1px solid black;
+  padding: 10px 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091E42;
+}
+
+.see-proj-btn {
+  background: #FF6B00;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffff;
+  padding: 12px 12px;
+  margin: 4% 0% 0% 10%;
+
+}
+
+.about-container {
+  background-color: #1C1A19;
+}
+
+.about-page {
+  background: url(./Components/assets/images/aboutback.png);
+  background-repeat: no-repeat;
+  background-size: 150px auto;
+  background-position: right bottom;
+  background-color: #1C1A19;
+}
+
+.primary-text {
+  padding-top: 120px;
+  margin: 0% 0% 0% 10%;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+}
+
+.decription {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+  margin: 4% 10% 0% 10%;
+}
+
+ .about-container hr {
+  margin: 8% 10% 0% 10%;
+}
+
+.skill-frame1 {
+  list-style: none;
+  color: #ffff;
+}
+
+.mini-frame {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  align-items: center;
+}
+
+.rectangle {
+  width: 28px;
+  height: 28px;
+}
+
+.language {
+  font-family: 'InaiMathi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffff;
+}
+
+.skill-frame1 li {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+}
+
+.contact-page p {
+  padding-top: 120px;
+  margin: 0% 10% 0% 10%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20% 10% 0% 10%;
+}
+
+.contact-form input {
+  border: none;
+  border-bottom: 1px solid #DBD8D7;
+  padding: 10px 10px;
+  margin-top: 5%;
+}
+
+.contact-form textarea {
+  margin-top: 10%;
+  background:  #FBF8F7;
+  padding: 10px 10px;
+}
+
+.contact-btn {
+  align-self: center;
+  width: 131px;
+  height: 48px;
+  margin-top: 5%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  background: #FF6B00;
+  color: #FFFFFF;
+  border: hidden;
+
+}
+
+.contact-container hr {
+  margin-top: 10%;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 768px){
+  .details{
+    max-width: 255px;
+  }
+  .decription {
+    width: 255px;
+  }
+}
+
 @media (min-width: 768px) {
+
+  .details{
+    min-width: 566px;
+  }
+
   .proj-head {
     display: flex;
     justify-content: space-between;
@@ -67,6 +288,17 @@
     width: 600px;
     height: 0px;
     margin-top: 140px;
+    margin-left: 0;
+  }
+
+  .skill {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contact-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
  

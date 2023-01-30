@@ -1,4 +1,6 @@
 import React from "react";
+import About from "./About";
+import Contact from "./Contact";
 import Projects from "./Products";
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
                     </p>
             </div>
             <Projects />
+            <About />
+            <Contact />
         </div>
     )
 }
