@@ -1,5 +1,5 @@
 import React from "react";
-import ImgPlaceholder from '../assets/images/ImgPlaceholder.png'
+import ImgPlaceholder from '../assets/images/awesomebooks.png'
 
 const Projects = () => {
     return(
@@ -14,6 +14,8 @@ const Projects = () => {
 
                 <div className="proj1">
                     <img className="proj-img1" src={ImgPlaceholder} alt='project1'/>
+                    <div>
+                      
                     <p className="title-post">Multi-Post Stories</p>
                     <p className="supporting-text">
                     A daily selection of privately personalized reads; no accounts or sign-ups required. 
@@ -27,6 +29,8 @@ const Projects = () => {
                         <li>ruby</li>
                     </ul>
                     <button className="see-proj-btn">See project</button>
+                    </div>
+                  
                 </div>
 
                 

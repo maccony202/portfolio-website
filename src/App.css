@@ -291,6 +291,15 @@
     margin-left: 0;
   }
 
+  .proj1 {
+    display: flex;
+  }
+
+  .proj-img1 {
+    margin-top: 0px;
+    width: 50%;
+  }
+
   .skill {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
