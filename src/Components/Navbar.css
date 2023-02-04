@@ -5,7 +5,7 @@
 }
 
 header {
-    position: relative;
+    position: fixed;
     width: 100%;
     z-index: 1;
 }
@@ -93,7 +93,7 @@ header {
     }
 
     .nav-menu.active {
-        background: brown;
+        background: #3E3C3C;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
