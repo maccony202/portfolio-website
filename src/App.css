@@ -263,6 +263,14 @@
   margin-bottom: 5%;
 }
 
+.my-modal {
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
+
 @media (max-width: 768px){
   .details{
     max-width: 255px;
