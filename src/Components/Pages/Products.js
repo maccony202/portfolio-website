@@ -48,8 +48,8 @@ const Projects = () => {
                     when an unknown printer took a standard dummy text.
                     </p>
                     <div className="pop-btn">
-                        <button className="proj-pop-btn">See live</button>
-                        <button className="proj-pop-btn">See source</button>
+                        <button className="proj-pop-btn"><a href="https://maccony202.github.io/awesome-Books-es6/">See live</a></button>
+                        <button className="proj-pop-btn"><a href="https://github.com/maccony202/awesome-Books-es6">See source</a></button>
                     </div>
                       </div>
                         </div>
